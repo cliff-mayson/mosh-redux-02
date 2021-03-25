@@ -1,0 +1,22 @@
+{
+  "name": "mosh-redux-02",
+  "version": "1.0.0",
+  "description": "mosh-redux-02",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliff-mayson/mosh-redux-02.git"
+  },
+  "author": "Cliffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cliff-mayson/mosh-redux-02/issues"
+  },
+  "homepage": "https://github.com/cliff-mayson/mosh-redux-02#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
