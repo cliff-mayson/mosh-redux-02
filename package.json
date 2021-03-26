@@ -4,7 +4,9 @@
   "description": "mosh-redux-02",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,13 @@
   },
   "homepage": "https://github.com/cliff-mayson/mosh-redux-02#readme",
   "dependencies": {
+    "immer": "^9.0.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
